@@ -2,7 +2,7 @@
 Hometask for labaratory lesson
 22.11.2024
 """
-import math
+# import math
 
 # task N 4
 # def is_leap(year):
@@ -28,6 +28,7 @@ import math
 #     )
 # )
 
+# task N 5
 # def find_angle(a, b, c):
 #     cosin = (a ** 2 + b ** 2 - c ** 2) / (2 * a * b)
 #     print('cosin: ', cosin)
@@ -51,3 +52,28 @@ import math
 # print(check_triangle(line_a, line_b, line_c))
 
 
+# task N 6
+# def the_biggest(a, b, c):
+#     if a > b and a > c: return (a, b, c)
+#     elif b > a and b > c: return (b, a, c)
+#     else: return (c, a, b)
+
+# def triangle_type_check(a:float, b:float, c:float):
+#     if a==b and b==c:
+#         print("Triangle is Equilateral")
+#         return
+#     c, a, b = the_biggest(a, b, c)
+#     is_right = ''
+#     if c**2 - (a**2 + b**2) == 0:
+#         is_right = " and Right"
+#     if a != b and b != c and c != a:
+#         print(f"Triangle is Scalene{is_right}")
+#     else: print("Triangle is Isosceles{is_right}")
+
+
+# a = float(input("Enter length of first line (a): "))
+# b = float(input("Enter length of second line (b): "))
+# c = float(input("Enter length of third line (c): "))
+# triangle_type_check(a, b, c)
+
+# task N 7
